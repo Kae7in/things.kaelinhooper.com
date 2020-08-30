@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Kae7in/things.kaelinhooper.com/issues"
   },
-  "homepage": "https://github.com/Kae7in/things.kaelinhooper.com#readme"
+  "homepage": "https://github.com/Kae7in/things.kaelinhooper.com#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "heroku-ssl-redirect": "0.0.4",
+    "path": "^0.12.7",
+    "vhost": "^3.0.2"
+  }
 }
