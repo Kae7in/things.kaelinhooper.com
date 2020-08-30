@@ -17,7 +17,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(sslRedirect());
 // app.use(favicon(__dirname + 'things/build/favicon.ico'));
-app.use(vhost('particles.kaelinhooper.com', particles));
+app.use(vhost('particles.kaelinhooper-things.herokuapp.com', particles));
 
 app.get('/', (req, res) => res.send({ message: ':)' }))
 
